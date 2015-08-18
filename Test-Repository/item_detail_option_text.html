@@ -6,8 +6,6 @@
 	</label>
 	<% if (option.type === 'textarea') { %>
 		<textarea name="<%= htmlid %>" id="<%= htmlid %>" class="input-medium <%= htmlid %>" data-toggle="text-option" data-available="true"><%= selected_value && selected_value.internalid || '' %></textarea>
-	<% } else { %>
-		<input type="<%= option.type === 'email' ? 'email' : 'text' %>" name="<%= htmlid %>" id="<%= htmlid %>" class="input-medium <%= htmlid %>" value="<%- selected_value && selected_value.internalid || '' %>" data-toggle="text-option" data-available="true">
-	<% } %>
+	<% }
 </div>
 <% }) %>
