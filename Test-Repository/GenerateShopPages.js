@@ -2,7 +2,7 @@
  * Module Description
  * This scheduled script runs daily to create HTML pages for the Shop.
  * Version    Date            Author           Remarks
- * 1.00       12 Sep 2013     athira
+ * 1.00       12 Sep 2013     Priyanka
  *
  */
 
